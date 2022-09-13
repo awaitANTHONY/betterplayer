@@ -115,8 +115,6 @@ class MethodChannelVideoPlayer extends VideoPlayerPlatform {
         };
         break;
     }
-    print(textureId);
-    print(dataSourceDescription);
     await _channel.invokeMethod<void>(
       'setDataSource',
       <String, dynamic>{
